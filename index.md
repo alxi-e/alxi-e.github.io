@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-![Some text](/assets/images/map1.jpg)
+![Some text](/assets/images/default.png)
 
 
 
