@@ -11,5 +11,8 @@ collections:
     output: true
     permalink: /portfolio/:name/
 
+paginate: 0
+
+
 
 
