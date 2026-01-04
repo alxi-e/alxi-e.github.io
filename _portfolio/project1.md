@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: portfolio
 title: City Map
 image: /assets/images/map1.jpg
 ---
