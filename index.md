@@ -1,5 +1,5 @@
 ---
-title: This is a test blog
+title: Home
 ---
 
 # Section 1: About me 
