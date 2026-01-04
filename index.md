@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Home
+layout: About
+title: About
 ---
 
 ### Section 1: About me 
