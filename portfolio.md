@@ -1,7 +1,8 @@
 ---
-layout: home
-title: Home
+layout: page
+title: Portfolio
+permalink: /portfolio/
 ---
 
-Welcome to my "home" page. 
+Welcome to my "portfolio" page. 
 Currently being built. 
