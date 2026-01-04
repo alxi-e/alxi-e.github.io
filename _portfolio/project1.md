@@ -1,4 +1,5 @@
 ---
+layout: page
 title: City Map
 image: /assets/images/map1.jpg
 ---
