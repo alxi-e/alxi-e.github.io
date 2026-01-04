@@ -4,3 +4,8 @@ header_pages:
   - index.md
   - portfolio.md
   - contact.md
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:name/
