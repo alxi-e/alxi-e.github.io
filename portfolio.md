@@ -6,6 +6,10 @@ permalink: /portfolio/
 ### Portfolio
 
 {% for project in site.portfolio %}
-### [{{ project.title }}]({{ project.url | relative_url }})
-![{{ project.title }}]({{ project.image | relative_url }})
+<a href="{{ project.url | relative_url }}">
+  {% if project.image %}
+  ![{{ project.title }}]({{ project.image | relative_url }})
+  {% endif %}
+  <p>{{ project.title }}</p>
+</a>
 {% endfor %}
