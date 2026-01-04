@@ -2,8 +2,10 @@ theme: minima
 
 header_pages:
   - index.md
+  - about.md
   - portfolio.md
   - contact.md
+
 
 
 
