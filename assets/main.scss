@@ -1,21 +1,14 @@
 ---
+# This ensures Jekyll processes the file
 ---
 
 @import "minima";
 
+// 1. Import Raleway from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-/*
-.site-title {
-  font-weight: 700;
-  font-size: 1.5rem;
-  font-family: Futura
-} */
-
-
-/* Force Poppins on all title-like elements in Minima */
-.site-title,
-.page-heading,
-.post-title,
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif !important;
+// 2. Apply to titles (h1, h2, h3, etc.) and the site title
+h1, h2, h3, h4, h5, h6, .site-title {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 700; // Bold for titles
 }
