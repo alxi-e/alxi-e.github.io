@@ -12,62 +12,63 @@ h1, h2, h3, h4, h5, h6, .site-title {
   font-family: 'Raleway', sans-serif !important;
   font-weight: 700; // Bold for titles
 }
-
-/* 1. The Grid Container */
 .portfolio-grid {
   display: grid;
-  /* This creates columns at least 300px wide, filling all available space */
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px; /* Space between cards */
-  margin: 2rem 0;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 25px;
+  padding: 20px 0;
 }
 
-/* 2. The Card Style */
 .portfolio-card {
+  position: relative;
   display: block;
-  text-decoration: none;
-  color: inherit;
-  background: #fff;
-  border: 1px solid #e1e1e1;
   border-radius: 12px;
-  overflow: hidden;
-  
-  /* This makes the hover effect smooth */
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  overflow: hidden; // Keeps the image inside the rounded corners
+  border: 1px solid #eee;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  aspect-ratio: 16 / 10; // Forces a consistent rectangle shape
 }
 
-/* 3. The Hover Effect */
-.portfolio-card:hover {
-  text-decoration: none;
-  color: inherit;
-  
-  /* Lifts the card up and makes the shadow deeper */
-  transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+.card-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-/* 4. Image Formatting */
 .portfolio-card img {
   width: 100%;
-  height: 200px;
-  object-fit: cover; /* Prevents stretching */
-  border-bottom: 1px solid #eee;
+  height: 100%;
+  object-fit: cover; // Makes image fill the rectangle without stretching
+  display: block;
 }
 
-.card-content {
-  padding: 20px;
+/* The Bottom Overlay */
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)); // Fade for readability
+  color: white;
+  padding: 40px 20px 20px; // Extra top padding for the gradient fade
 }
 
-.card-content h3 {
-  margin: 0 0 10px 0;
-  color: #111;
-  /* Ensures your Raleway font is applied */
-  font-family: 'Raleway', sans-serif !important;
-}
-
-.card-content p {
-  font-size: 0.9rem;
-  color: #666;
+.card-text h3 {
   margin: 0;
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 1.25rem;
+  color: white !important;
+}
+
+.card-text p {
+  margin: 5px 0 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* Hover Effects */
+.portfolio-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+  text-decoration: none;
 }
