@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Project One"
-thumbnail: "/assets/img/project1.png"
+title: "#30DayMapsChallenge 2026
+thumbnail: "/assets/img/30daysmapschallenge.png"
 description: "A detailed look at my first big build."
+weight: 1
 ---
 
-### Project Overview
-This is the actual page for Project One. You can use **Markdown** here to write:
-* What tools you used
-* Challenges you faced
-* Links to the live demo
+### What is the 30DaysMapChallenge? 
+Description of 30DaysMapChallenge
+
+### Highlights of my maps for 2026
+
