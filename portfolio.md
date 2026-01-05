@@ -1,7 +1,16 @@
 ---
 layout: page
 title: Portfolio
-permalink: /portfolio/
 ---
-### Portfolio
 
+<div class="portfolio-grid">
+  {% for project in site.projects %}
+  <a href="{{ project.url | relative_url }}" class="portfolio-card">
+    <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title }}">
+    <div class="card-content">
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.description }}</p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
