@@ -22,19 +22,8 @@ h1, h2, h3, h4, h5, h6, .site-title {
   transition: font-weight 0.2s ease; /* Makes the "bolding" feel smoother */
 }
 
-/* 2. Hover Effect: No underline + Bold */
-.site-title:hover, 
 .site-nav .page-link:hover {
   text-decoration: none !important;
-  font-weight: 800 !important; /* Makes it "Extra Bold" on hover */
-  border-bottom: none !important; /* Some themes use border instead of underline */
+  text-shadow: 0.5px 0 0 currentColor, -0.5px 0 0 currentColor; 
 }
-
-/* 3. Ensure the nav links don't shift other items when bolding */
-.site-nav .page-link {
-  display: inline-block;
-  min-width: 60px; /* Optional: prevents the menu from "jumping" when text expands */
-  text-align: center;
-}
-
 
