@@ -43,6 +43,76 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent !important;
 }
 
+/* Portfolio Grid Container */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 20px 0;
+}
+
+/* The Card Wrapper */
+.portfolio-card {
+  position: relative;
+  height: 280px;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  display: block; /* Ensures the link covers the whole card */
+}
+
+/* The Image */
+.portfolio-card img { 
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: filter 0.4s ease, transform 0.4s ease;
+  /* If you want it blurred by default and clear on hover, use this: */
+  filter: blur(5px); 
+}
+
+/* Hover Effect on Image */
+.portfolio-card:hover img {
+  filter: blur(0px);
+  transform: scale(1.03);
+}
+
+/* The Floating Glass Box */
+.card-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  color: white !important;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 2;
+  transition: background 0.3s ease;
+}
+
+/* Hover Effect on Glass Box */
+.portfolio-card:hover .card-overlay {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.card-overlay h3 { 
+  margin: 0 !important; 
+  font-size: 1.2rem; 
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-overlay p { 
+  margin: 4px 0 0 !important; 
+  font-size: 0.9rem; 
+  opacity: 0.8; 
+}
+
+/*
 // grid CSS for portfolio
 .portfolio-grid {
   display: grid;
@@ -74,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-/* The Bottom Overlay */
+
 .card-overlay {
   position: absolute;
   bottom: 0;
@@ -98,9 +168,10 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.9;
 }
 
-/* Hover Effects */
+// Hover Effects 
 .portfolio-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(0,0,0,0.15);
   text-decoration: none;
 }
+*/
