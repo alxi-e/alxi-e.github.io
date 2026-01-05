@@ -6,6 +6,8 @@ header_pages:
   - portfolio.md
   - contact.md
 
+custom_css: /assets/css/style.css
+
 collections:
   portfolio:
     output: true
@@ -16,6 +18,7 @@ show_posts: false
 
 title: Alexis
 description: Cartography and Data Visualization
+
 
 
 
