@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "#30DayMapsChallenge 2026
+title: "#30DayMapsChallenge 2026"
 thumbnail: "/assets/img/30daysmapschallenge.png"
 description: "A detailed look at my first big build."
 weight: 1
