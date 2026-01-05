@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 title: "Project 4"
-thumbnail: "/assets/img/day4.png"
+thumbnail: "/assets/img/day4.jpg"
 description: "A detailed look at my second big build."
 ---
 
