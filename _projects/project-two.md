@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "Project Two"
-thumbnail: "/assets/img/project1.png"
+thumbnail: "/assets/img/arctic.png"
 description: "A detailed look at my second big build."
+weight: 2
 ---
 
 ### Project Overview
