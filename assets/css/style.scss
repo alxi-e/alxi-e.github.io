@@ -19,6 +19,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+
+// customer header 
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.8) !important; /* Semi-transparent black */
+  backdrop-filter: blur(10px); /* The "Glass" effect */
+  border-bottom: 1px solid #222 !important;
+}
+
+
 // grid CSS for portfolio
 .portfolio-grid {
   display: grid;
