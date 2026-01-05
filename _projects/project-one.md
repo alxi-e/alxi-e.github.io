@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Project One"
-thumbnail: "/assets/img/project1.jpg"
+thumbnail: "/assets/img/project1.png"
 description: "A detailed look at my first big build."
 ---
 
