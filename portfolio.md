@@ -20,7 +20,7 @@ permalink: /portfolio/
   /* 1. GRID SETUP */
   .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 30px;
     padding: 20px 0;
   }
@@ -45,13 +45,13 @@ permalink: /portfolio/
     object-fit: cover; 
     transition: filter 0.5s ease, transform 0.5s ease;
     /* Default: Blurry and slightly dark */
-    filter: blur(8px) brightness(0.7); 
+    ; 
   }
 
   /* When hovering, clear the blur and zoom slightly */
   .portfolio-card:hover img {
     filter: blur(0px) brightness(1);
-    transform: scale(1.05);
+    transform: scale(1.03);
   }
 
   /* 4. FLOATING GLASS BOX */
