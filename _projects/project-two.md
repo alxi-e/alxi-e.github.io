@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project-layout
 title: "Project Two"
 thumbnail: "/assets/img/worldworld.png"
 description: "A detailed look at my second big build."
