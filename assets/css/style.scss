@@ -26,11 +26,22 @@ h1, h2, h3, h4, h5, h6 {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.8) !important; /* Semi-transparent black */
-  backdrop-filter: blur(10px); /* The "Glass" effect */
-  border-bottom: 1px solid #222 !important;
+  
+  /* 1. Transparency is required for the blur to show through */
+  background-color: rgba(0, 0, 0, 0.7) !important; 
+  
+  /* 2. The Blur Effect */
+  -webkit-backdrop-filter: blur(12px); /* For Safari */
+  backdrop-filter: blur(12px); 
+  
+  /* 3. Remove Minima's default border and add a subtle dark one */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
+/* Ensure the wrapper inside the header doesn't have its own background */
+.site-header .wrapper {
+  background: transparent !important;
+}
 
 // grid CSS for portfolio
 .portfolio-grid {
