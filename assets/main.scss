@@ -37,15 +37,4 @@ h1, h2, h3, h4, h5, h6, .site-title {
   text-align: center;
 }
 
-// over scrolling part 
 
-/* This covers the "overscroll" area in most browsers */
-html, body {
-  background-color: #000000 !important;
-}
-
-/* This ensures your actual content area remains readable */
-.site-header, .page-content, .site-footer {
-  background-color: #000000; /* Or whatever color you want your site to be */
-  color: #ffffff; /* Make sure your text is white if the background is black! */
-}
