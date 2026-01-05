@@ -9,15 +9,16 @@ header_pages:
 custom_css: /assets/css/style.css
 
 collections:
-  portfolio:
+  projects:
     output: true
-    permalink: /portfolio/:name/
+    permalink: /portfolio/:path/
 
 paginate: 0
 show_posts: false
 
 title: Alexis
 description: Cartography and Data Visualization
+
 
 
 
