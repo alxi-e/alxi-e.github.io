@@ -7,7 +7,6 @@ description: "A detailed look at my first big build."
 weight: 1
 ---
 
-<img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}" style="width: 100%; border-radius: 12px; margin-bottom: 30px;">
 
 ### What is the 30DaysMapChallenge? 
 Description of 30DaysMapChallenge
