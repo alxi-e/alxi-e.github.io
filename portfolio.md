@@ -32,7 +32,7 @@ permalink: /portfolio/
     border-radius: 15px;
     overflow: hidden;
     cursor: pointer;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
     display: block;
     text-decoration: none !important;
     background: #000;
@@ -57,11 +57,11 @@ permalink: /portfolio/
   /* 4. FLOATING GLASS BOX */
   .card-overlay {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    padding: 15px;
-    border-radius: 10px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    padding: 5px;
+    border-radius: 5px;
     
     /* Glassmorphism */
     background: rgba(255, 255, 255, 0.1);
