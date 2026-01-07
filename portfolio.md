@@ -4,6 +4,8 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
 <div class="portfolio-grid">
   {% for project in site.projects %}
     <a href="{{ project.url | relative_url }}" class="portfolio-card">
@@ -20,22 +22,30 @@ permalink: /portfolio/
   /* 1. GRID SETUP */
   .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 30px;
     padding: 20px 0;
   }
 
-  /* 2. THE CARD */
+  /* 2. THE CARD (16/10 Ratio) */
   .portfolio-card {
     position: relative;
-    height: 280px;
-    border-radius: 15px;
+    width: 100%;
+    aspect-ratio: 16 / 10; /* Precise 16/10 format */
+    border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    /* Lighter, subtle shadow */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); 
     display: block;
     text-decoration: none !important;
-    background: #000;
+    background: #1a1a1a;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .portfolio-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12); /* Slightly deeper on hover */
   }
 
   /* 3. IMAGE FOCUS EFFECT */
@@ -43,59 +53,57 @@ permalink: /portfolio/
     width: 100%;
     height: 100%;
     object-fit: cover; 
-    transition: filter 0.5s ease, transform 0.5s ease;
-    /* Default: Blurry and slightly dark */
-    ; 
+    transition: filter 0.6s ease;
+    filter: blur(6px) brightness(0.8); 
   }
 
-  /* When hovering, clear the blur and zoom slightly */
   .portfolio-card:hover img {
     filter: blur(0px) brightness(1);
-    transform: scale(1.03);
   }
 
-  /* 4. FLOATING GLASS BOX */
+  /* 4. LOWER FIFTH GLASS BAR */
   .card-overlay {
     position: absolute;
-    bottom: 5px;
-    left: 5px;
-    right: 5px;
-    padding: 5px;
-    border-radius: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Approximately 1/5th of the height */
+    height: 22%; 
+    padding: 0 20px;
     
-    /* Glassmorphism */
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Blur + Darken Effect */
+    background: rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     
-    color: white !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     z-index: 2;
-    transition: all 0.3s ease;
+    transition: background 0.3s ease;
   }
 
-  /* Lift the box slightly on hover */
   .portfolio-card:hover .card-overlay {
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-5px);
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.6); /* Darkens further on hover */
   }
 
-  /* 5. TEXT STYLING */
+  /* 5. TYPOGRAPHY (Poppins) */
   .card-overlay h3 { 
     margin: 0 !important; 
-    font-size: 1.2rem !important; 
-    font-family: 'Raleway', sans-serif !important;
-    font-weight: 700 !important;
+    font-size: 1.1rem !important; 
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
     color: white !important;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    letter-spacing: -0.02em;
   }
 
   .card-overlay p { 
-    margin: 4px 0 0 !important; 
-    font-size: 0.85rem !important; 
-    opacity: 0.9 !important; 
-    color: white !important;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    margin: 2px 0 0 !important; 
+    font-size: 0.8rem !important; 
+    opacity: 0.8 !important; 
+    color: #e0e0e0 !important;
+    font-family: sans-serif;
   }
 </style>
