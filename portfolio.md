@@ -89,14 +89,14 @@ permalink: /portfolio/
   .card-overlay::before {
     content: "";
     position: absolute;
-    top: 0;
+    top: -1;
     left: 0;
     width: 0%;
     height: 2px;
     background: #ffffff;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    /*transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1);*/
-    transition: width 0.2s ease-in;
+    transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1);*/
+    /*transition: width 0.2s ease-in;*/
   }
 
   .portfolio-card:hover .card-overlay::before {
