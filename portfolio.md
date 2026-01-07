@@ -89,7 +89,7 @@ permalink: /portfolio/
   .card-overlay::before {
     content: "";
     position: absolute;
-    top: 0.5px;
+    top: 2px;
     left: 0;
     width: 0%;
     height: 2px;
