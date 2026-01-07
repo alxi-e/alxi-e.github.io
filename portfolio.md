@@ -44,7 +44,7 @@ permalink: /portfolio/
   }
 
   .portfolio-card:hover {
-    transform: translateY(-4px);
+    transform: translateY(0px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12); /* Slightly deeper on hover */
   }
 
