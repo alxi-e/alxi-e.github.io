@@ -1,26 +1,17 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
+<footer class="site-footer">
   <div class="wrapper">
-    <div class="footer-col-wrapper">
+    <div style="display: flex; justify-content: space-between; padding: 20px 0; border-top: 1px solid #333;">
       
-      <div class="footer-col footer-col-1">
-        <h2 class="footer-heading">{{ site.title | escape }}</h2>
-        <p class="footer-copyright">&copy; {{ "now" | date: "%Y" }} • Cartography & Data Viz</p>
+      <div>
+        <h2 style="font-family: sans-serif; font-size: 1.2rem; margin: 0;">Alexis</h2>
+        <p style="color: #666; font-size: 0.8rem; margin: 5px 0 0;">&copy; 2026 • Cartography</p>
       </div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          <li><a href="mailto:{{ site.email }}">Email</a></li>
-          {% if site.github_username %}
-            <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
-          {% endif %}
-        </ul>
+      <div style="text-align: right;">
+        <p style="color: #888; font-size: 0.9rem; margin: 0;">Cartography and Data Visualization</p>
+        <a href="https://github.com/alxi-e" style="color: #007bff; text-decoration: none; font-size: 0.8rem;">GitHub</a>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
     </div>
   </div>
 
