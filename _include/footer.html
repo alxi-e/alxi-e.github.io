@@ -1,3 +1,77 @@
-<!-- feed.html overridden to remove RSS -->
-<script data-goatcounter="https://alexiii.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+<style>
+        /* Custom Footer Styling */
+.site-footer {
+  border-top: 1px solid #333; /* Darker, subtler line */
+  padding: 40px 0;
+  background-color: #111; /* Match your dark theme */
+  color: #888;
+}
+
+.footer-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #eee !important;
+  margin-bottom: 5px;
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media-list a {
+  color: #888 !important;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.social-media-list a:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+/* Responsive fix for mobile */
+@media (max-width: 600px) {
+  .footer-col-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+</style>
+
+
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      
+      <div class="footer-col footer-col-1">
+        <h2 class="footer-heading">{{ site.title | escape }}</h2>
+        <p class="footer-copyright">&copy; {{ "now" | date: "%Y" }} • Cartography & Data Viz</p>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          <li><a href="mailto:{{ site.email }}">Email</a></li>
+          {% if site.github_username %}
+            <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+  </div>
+
+  <script data-goatcounter="https://alexiii.goatcounter.com/count"
+          async src="https://gc.zgo.at/count.js"></script>
+</footer>
