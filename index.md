@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-![Alt text](assets/images/default.png)
+![Text]({{ site.baseurl }}/assets/images/default.png)
 
 I am a social scientist with a passion for data visualisation and cartography. Datasets always have fantastic stories to tell: by turning them into visuals, I make sure everyone can follow along. 
 
