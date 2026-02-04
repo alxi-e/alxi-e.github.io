@@ -3,6 +3,12 @@ layout: home
 title: Home
 ---
 
+<style>
+  .post-title, .page-heading { 
+    display: none; 
+  }
+</style>
+
 ![Alt text](assets/img/default.png)
 
 I am a social scientist with a passion for data visualisation and cartography. Datasets always have fantastic stories to tell: by turning them into visuals, I make sure everyone can follow along. 
