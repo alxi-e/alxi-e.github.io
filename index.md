@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-<img src="{{ '/assets/images/default.png' | relative_url }}" alt="Map">
+![Alt text](assets/img/default.png)
 
 I am a social scientist with a passion for data visualisation and cartography. Datasets always have fantastic stories to tell: by turning them into visuals, I make sure everyone can follow along. 
 
