@@ -2,7 +2,7 @@ theme: minima
 
 header_pages:
   - index.md
-  - about.md
+  #- about.md
   - portfolio.md
   - contact.md
 
@@ -20,6 +20,7 @@ show_posts: false
 title: Alexis
 author: © Alexis 2026
 description: Cartography, Science Communication and Data Visualization
+
 
 
 
