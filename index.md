@@ -26,6 +26,8 @@ Here is a list of the main technologies/tools that I use in my work:
 - **PostgreSQL** (PostGis)
 - **Graphics**: Affinity, Blender
 
+You can download my [full CV.]({{ '/cv/' | relative_url }})
+
 
 ### **Contact**
 
