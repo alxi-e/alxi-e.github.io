@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-![Some text](/assets/images/default.png)
+![Alt text](assets/images/default.png)
 
 I am a social scientist with a passion for data visualisation and cartography. Datasets always have fantastic stories to tell: by turning them into visuals, I make sure everyone can follow along. 
 
@@ -23,5 +23,5 @@ Here is a list of the main technologies/tools that I use in my work:
 
 A question? Want to keep in touch? 
 - **Email**: placeholder@email.com
-- **LinkedIn**:linkedin.com/noone
+- **LinkedIn**: linkedin.com/noone
 - **Bluesky**: @placeholder.bsky.social
