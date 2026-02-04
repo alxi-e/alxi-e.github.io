@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Alexis
 ---
 
 ![Alt text](assets/img/default.png)
