@@ -2,7 +2,7 @@ theme: minima
 
 header_pages:
   - index.md
-  - about.md
+  #- about.md
   - portfolio.md
   - contact.md
 
@@ -13,6 +13,7 @@ collections:
 
 paginate: 0
 show_posts: false
+
 
 
 
