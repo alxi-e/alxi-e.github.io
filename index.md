@@ -3,11 +3,25 @@ layout: home
 title: Home
 ---
 
-![Some text](/assets/img/default.png)
+![Some text](/assets/images/default.png)
 
+I am a social scientist with a passion for data visualisation and cartography. Datasets always have fantastic stories to tell: by turning them into visuals, I make sure everyone can follow along. 
 
+Based in 📍Helsinki, Finland (60.1699° N, 24.9384° E)
 
+Want to see my work? Head to (portfoliolink)
 
-### Another title
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus maximus sit amet odio eget interdum. Donec eget dui eu nunc faucibus malesuada sed nec ligula. Vivamus cursus efficitur congue. Maecenas ac iaculis justo. In rhoncus justo ut elit rhoncus tincidunt. Praesent molestie aliquet lectus, ornare laoreet orci interdum sed. Curabitur eu egestas nibh. Pellentesque nec blandit eros. Morbi convallis quam ex, et feugiat mauris fringilla ut. Donec eu faucibus dolor. Proin non maximus diam. Phasellus ex purus, feugiat tincidunt vestibulum vel, interdum a magna. Duis ut porttitor mi. 
+### **Technologies**
+Here is a list of the main technologies/tools that I use in my work: 
 
+- **Python** (Pandas, Geopandas, Seaborn)
+- **QGIS**
+- **PostgreSQL** (PostGis)
+- **Graphics**: Affinity, Blender
+
+### **Contact**
+
+A question? Want to keep in touch? 
+- **Email**: placeholder@email.com
+- **LinkedIn**:linkedin.com/noone
+- **Bluesky**: @placeholder.bsky.social
