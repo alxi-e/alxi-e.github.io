@@ -15,7 +15,7 @@ I am a social scientist with a passion for data visualisation and cartography. D
 
 Based in 📍Helsinki, Finland (60.1699° N, 24.9384° E)
 
-Want to see my work? Head to [my portfolio]({{ '/portfolio/' | relative_url }})(portfoliolink)
+Want to see my work? Head to [my portfolio.]({{ '/portfolio/' | relative_url }})
 
 
 ### **Technologies**
