@@ -17,6 +17,7 @@ Based in 📍Helsinki, Finland (60.1699° N, 24.9384° E)
 
 Want to see my work? Head to (portfoliolink)
 
+
 ### **Technologies**
 Here is a list of the main technologies/tools that I use in my work: 
 
@@ -24,6 +25,7 @@ Here is a list of the main technologies/tools that I use in my work:
 - **QGIS**
 - **PostgreSQL** (PostGis)
 - **Graphics**: Affinity, Blender
+
 
 ### **Contact**
 
