@@ -4,7 +4,7 @@ header_pages:
   - index.md
   #- about.md
   - portfolio.md
-  - contact.md
+  #- contact.md
 
 custom_css: /assets/css/style.css
 favicon: /favicon.png
@@ -20,6 +20,7 @@ show_posts: false
 title: Alexis
 author: © Alexis 2026
 description: Cartography, Science Communication and Data Visualization
+
 
 
 
