@@ -1,7 +1,7 @@
 ---
 layout: project-layout
 title: "#30DayMapsChallenge"
-subtitle: "A recap of all the maps!"
+subtitle: "30days, 30 maps!"
 thumbnail: "/assets/img/30daysmapchallenge.jpg"
 description: ""
 weight: 1
