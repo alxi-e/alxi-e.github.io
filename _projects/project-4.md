@@ -1,8 +1,8 @@
 ---
 layout: project-layout
-title: "Average Temperature of Baltic Sea"
+title: "Average Temperature of the Baltic Sea"
 subtitle: "animated using QGIS and ffmpeg"
-thumbnail: "/assets/img/day4.jpg"
+thumbnail: "/assets/img/default.png"
 description: "A detailed look at my second big build."
 ---
 
