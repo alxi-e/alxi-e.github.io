@@ -1,7 +1,6 @@
 ---
 layout: project-layout
 title: "3D maps using Blender"
-subtitle: "animated using QGIS and ffmpeg"
 thumbnail: "/assets/img/default.png"
 description: "A detailed look at my second big build."
 ---
