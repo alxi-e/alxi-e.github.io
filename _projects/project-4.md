@@ -1,12 +1,9 @@
 ---
 layout: project-layout
-title: "Project 4"
+title: "Average Temperature of Baltic Sea"
+subtitle: "animated using QGIS and ffmpeg"
 thumbnail: "/assets/img/day4.jpg"
 description: "A detailed look at my second big build."
 ---
 
-### Project Overview
-This is the actual page for Project One. You can use **Markdown** here to write:
-* What tools you used
-* Challenges you faced
-* Links to the live demo
+### A quick explanation of the workflow
