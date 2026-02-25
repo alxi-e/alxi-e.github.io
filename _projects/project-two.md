@@ -1,13 +1,14 @@
 ---
 layout: project-layout
-title: "Project Two"
+title: "Where is the Arctic?"
 thumbnail: "/assets/img/worldworld.png"
 description: "A detailed look at my second big build."
+subtile: "Boundaries in the Arctic."
 weight: 2
 ---
 
-### Project Overview
-This is the actual page for Project One. You can use **Markdown** here to write:
-* What tools you used
-* Challenges you faced
-* Links to the live demo
+### Where is the Arctic? 
+
+I made this map as part of the #30DayMapChallenge 2026, in an attempt to better understand, and maybe question, what is understood as the "Arctic". 
+
+
