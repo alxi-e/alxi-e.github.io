@@ -55,6 +55,7 @@ permalink: /portfolio/
     object-fit: cover; 
     transition: filter 0.6s ease;
     filter: blur(0px) brightness(0.95); 
+    object-position: top; 
   }
 
   .portfolio-card:hover img {
