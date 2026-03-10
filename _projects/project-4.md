@@ -6,7 +6,7 @@ thumbnail: "/assets/img/baltic-sea/banner.png"
 description: "A detailed look at my second big build."
 ---
 
-This animated map was made for the day 20 of the #30DayMapsChallenge , for the theme "water". 
+This animated map was made for the day 20 of the #30DayMapsChallenge, for the theme "water". 
 
 
 ### A quick explanation of the workflow
@@ -17,6 +17,7 @@ The dataset consists of multiple NetCDF files, for years 1993-2024.
 I used QGIS to explore the the NetCDF files and reprojected them to EPSG:3035. I used the Temperature (thetao) layer (band 01) for surface temperature. After deciding on a color ramp, I wrote a short python script to export as a png the same layer and band for each NetCDF file (one per year). 
 
 The result: 
+
 ![Exported .png](/assets/img/baltic-sea/1994.png){: width="50%"}
 
 I then styled another layer (natural earth data) to get the country outlines. Final styling was done using Affinity Designer 2, and a png file was created for each year. 
