@@ -1,10 +1,12 @@
 ---
 layout: project-layout
 title: "3D maps using Blender"
-thumbnail: "/assets/img/default.png"
+thumbnail: "/assets/img/DEM-blender/koli.jpg"
 description: "A detailed look at my second big build."
 ---
 
-### A quick explanation of the workflow
+## A quick explanation of the workflow
+WIP
 
-# Koli national park
+## Examples
+### Koli National Park
