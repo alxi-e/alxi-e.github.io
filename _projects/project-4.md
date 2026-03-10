@@ -26,6 +26,6 @@ I then styled another layer (natural earth data) to get the country outlines. Fi
 Finally, using FFmpeg, I combined every frame into an animation. 
 
 Result: 
-![Final export](/assets/img/baltic-sea/output.mp4)
+![Final export](https://video.bsky.app/watch/did%3Aplc%3A2mufthrc2jhu6ubvosggmbm7/bafkreif2dzcr37ppse3hb5oj2uif6yikxads6ehvmchmr3uh2otxke35nq/thumbnail.jpg)
 
 
