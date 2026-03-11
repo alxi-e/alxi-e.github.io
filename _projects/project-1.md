@@ -19,7 +19,7 @@ I used this challenge as a learning experience: a reason to try new tools and a 
 Among the tools that I experimented with, Blender really stands out, and I will keep making 3D shaded relief for future maps. I was also impressed with rayshader (maybe more with other participants productions than my own at this stage!). 
 
 ### Each map in detail
-If you want to have a look at every map I produced during the challenge, head to my bluesky account: https://bsky.app/profile/alexiii.bsky.social
+If you want to have a look at every map I produced during the challenge, head to my bluesky [account.](https://bsky.app/profile/alexiii.bsky.social)
 
 ### Upcoming
 I will keep making individual entries for the maps that I enjoyed making most - whenever I have time!
