@@ -13,7 +13,7 @@ title: Home
 
 I am a social scientist with a passion for data visualisation and cartography. Datasets always have fantastic stories to tell: by turning them into visuals, I make sure everyone can follow along. 
 
-Based in 📍Helsinki, Finland (60.1699° N, 24.9384° E)
+Based in 📍Helsinki, Finland (60.17° N, 24.95° E)
 
 Want to see my work? Head to [my portfolio.]({{ '/portfolio/' | relative_url }})
 
